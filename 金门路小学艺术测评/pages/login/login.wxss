@@ -1,0 +1,76 @@
+
+ .bg {
+  /* display: block;  */
+  height: 100%;
+  text-align: center;
+  /* margin-top: -80px;    */
+  /* background-color: red; */
+} 
+.logo{
+     /* margin:auto;     */
+  align-items: center;
+  width: 120px;
+  height: 110px;
+  margin-top: 80px;
+  
+
+}
+.title {
+  margin:auto; 
+  display: block;  
+  color: white;
+  width: 150px;
+  height: 50px;
+  margin-top: 30px;
+  text-align: center; 
+  font-weight: 600;
+  font-size: 18px;
+}
+.userName{
+  margin:auto; 
+  display: block;
+  height: 30px;
+  width: 300px;  
+  
+  background-color: white;
+  margin-top: 60px;
+  font-size: 14px;
+  padding-left: 5px;
+  text-align: left;
+
+}
+.passWord {
+  margin:auto; 
+  display: block;
+  height: 30px;
+  width: 300px; 
+  background-color: white;
+  margin-top: 10px;
+  font-size: 14px;
+  padding-left: 5px;
+  text-align: left;
+}
+.rememberPWD {
+  margin:auto; 
+  display: block;
+  margin-top: 10px;
+  width: 305px;
+  height: 30px;
+
+}
+.radio {
+  display: flex;
+  width: 150px;
+  color: white;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.loginBtn {
+  margin:auto; 
+  display: block;
+  width: 305px;  
+  /* height: 30px; */
+  margin-top: 10px;
+  background-color: orange;
+  color: white;
+}

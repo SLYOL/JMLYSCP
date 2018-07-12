@@ -1,0 +1,173 @@
+.mainView {
+  width: 100%;
+  height: 90%;
+  background-color: gainsboro;
+  /* background-color: red; */
+}
+.mainChild {
+  /* height: 410rpx; */
+  width: 96%;
+  margin: 0 auto; 
+  margin-top: 30rpx;
+  background-color: white;
+
+}
+.childFirst {
+  width: 100%;
+  /* height: 240rpx; */
+  /* background-color: gold; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.headerImage {
+  width: 120rpx;
+  height: 120rpx;
+  /* background-color: yellow; */
+  margin: 0 auto; 
+  margin-top: 40rpx;
+  margin-left: 15rpx;
+}
+.childFirstChild{
+  width: 78%;
+  height: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+}
+.firstSon1{
+  width: 100%;
+  height: 35%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.firstSon2 {
+  width: 94%;
+  height: 65%;
+  /* background-color: blueviolet; */
+  font-size: 24rpx;
+  margin: 0 auto;
+
+}
+
+.nameView {
+  width: 100rpx;
+  height: 100rpx;
+  line-height: 100rpx; 
+  margin: 0 auto;
+  color: #669999;
+  
+}
+
+.creditView {
+  width: 50%;
+  height: 100rpx;
+  line-height: 100rpx; 
+  margin: 0 auto;
+  color: royalblue;
+}
+
+
+
+.childThree {
+  /* margin: 0 auto; */
+  width: 90%;
+  height: 150rpx; 
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10rpx;
+  margin-left: 120rpx;
+  /* margin-bottom: 10rpx; */
+}
+.awardView {
+  width: 50%;
+  height: 96%;
+  /* margin: 0 auto; */
+   margin-right: 10rpx; 
+  text-align: right;
+  /* background-color: pink;  */
+  
+
+}
+.childSecondChild {
+  width: 40%;
+  height: 96%;
+  /* background-color: blue;  */
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+
+  margin-right: 10rpx;
+
+
+}
+
+.addBTN{
+  width: 150rpx;
+  height: 60rpx;
+  background-color: #32CD32;
+  margin-top: 10rpx;
+  line-height: 60rpx;
+  color: white;
+  font-size: 30rpx;
+
+}
+.addBTN2{
+  width: 150rpx;
+  height: 60rpx;
+  background-color: #32CD32;
+  margin-top: 10rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  color: white;
+
+
+}
+.passBTN {
+  width: 150rpx;
+  height: 60rpx;
+  background-color: #DC143C;
+  margin-top: 10rpx;
+  line-height: 60rpx;
+  color: white;
+  font-size: 30rpx;
+
+
+}
+
+.bottomView{
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  /* bottom: 20rpx;  */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: gainsboro;
+
+}
+.toDoView{
+  width: 30%;
+  height: 80%;
+  background-color: #DC143C;
+  margin: 0 auto;
+  color: white;
+  margin-top: 12rpx;
+
+}
+.doneView {
+  width: 30%;
+  height: 80%;
+  background-color: #32CD32;
+  margin: 0 auto;
+  color: white;
+  margin-top: 12rpx;
+
+}

@@ -1,0 +1,33 @@
+<view>
+  <view class='titleView' style = "background-image: url('https://lg-n0r2iyru-1256892062.cos.ap-shanghai.myqcloud.com/name-background.png');background-size:cover">
+  <image class='headerImage' src='/image/yuan.png' bindtap='touchChangeImage'></image>
+  <view class='name'>{{Name}}</view>
+
+    <view class='changeView' >
+      <view class='changePWD'> 
+        <image class='changePWDimage' src='/image/name-pwd.png' bindtap='touchChangePWD'></image>
+      </view>
+
+      <view class='changeEmile'>
+        <image class='changeEmileimage' src='/image/name-emile.png' bindtap='touchChangeEmile'></image>
+      </view>  
+
+    </view>
+
+  </view>
+  <view class='selectClassView' style='height:{{height}}px'>
+    <!-- <form bindsubmit="formSubmit" bindreset="formReset" > -->
+      <view class='classView'  wx:for='{{calssArray}}' wx:key = 'selectClass' data-text="{{item.name}}" value='{{item.name}}' bindtap='touchSelect' >
+        <image class='imageView' src='/image/class-greade.png'>
+        </image>
+        <view class='classTitle'>{{item.name}}
+        </view>
+     </view>
+
+     <image class='addView' src='/image/class-add.png' bindtap='addClass'></image>
+    <!-- </form> -->
+  </view>
+
+
+
+</view>

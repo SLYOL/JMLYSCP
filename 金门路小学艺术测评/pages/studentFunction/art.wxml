@@ -1,0 +1,16 @@
+<view class='mainView'>
+
+  <view class='titleView'>美术Or音乐</view>
+  <view class='subjectView'>
+  <image class='subject' src='{{artImage}}' data-index='1' bindtap='touchSubject'></image>
+  <image class='subject' src='{{musicImage}}' data-index='2' bindtap='touchSubject'></image>
+
+  </view>
+  <view class='titleView'>参与留念</view>
+    <textarea class='inputView' auto-height bindblur="bindTextAreaBlur"  placeholder='请写一段话来记录此次活动' placeholder-style='color:blue;font-size: 28rpx;'maxlength='60'></textarea>
+  <!-- </view> -->
+  <view class='photoView'>
+    <image class='addImage' src='/image/class-add.png' bindtap='touchImage'></image>
+    <view class='imageTiele'>留念照片</view>
+  </view>
+</view>

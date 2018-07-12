@@ -1,0 +1,20 @@
+<form bindsubmit="formSubmit" bindreset="formReset">  
+  <view class = 'bg' style = "background-image: url('https://lg-n0r2iyru-1256892062.cos.ap-shanghai.myqcloud.com/background.png');background-size:cover">
+    <image class='logo' src='/image/LOGO.png' ></image>  
+    <view class='title'>青岛市金门路小学艺术评测</view>  
+    <input class='userName' placeholder='账号' name = "account" value='{{account}}' ></input>  
+    <input class='passWord' placeholder='密码' name = "userPWD" value='{{userPWD}}' password='true' ></input>  
+    
+    <view class='rememberPWD'>
+      <checkbox-group class="radio-group" bindchange="radioChange">
+        <label class="radio" >
+           <checkbox value = '1' checked="{{checked}}"/>记住密码
+        </label>
+    </checkbox-group>
+
+    </view>
+    <button class='loginBtn' formType='submit' >登录</button> 
+  </view>
+</form>   
+
+

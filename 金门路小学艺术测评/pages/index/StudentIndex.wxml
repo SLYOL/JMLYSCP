@@ -1,0 +1,41 @@
+<view class='titleView' style = "background-image: url('https://lg-n0r2iyru-1256892062.cos.ap-shanghai.myqcloud.com/name-background.png');background-size:cover" >
+  <image class='headerImage' src='/image/yuan.png' bindtap='touchChangeImage'></image>
+  <view class='name'>{{Name}}</view>
+
+    <view class='changeView' >
+      <view class='changePWD'> 
+        <view class='changePWDimage'  bindtap='touchChangePWD'>改密</view>
+      </view>
+
+      <view class='changeEmile'>
+        <view class='changeEmileimage' style='color: black' bindtap='touchResult'>成绩</view>
+      </view>  
+
+    </view>
+
+  </view>
+  <view class='functionView'>
+   <view class='textView'>在校表现</view>
+  <view class='card'>
+    <view class='cardChild'>
+      <image class='cardChildImage' src='/image/dfxm-5.png' bindtap='touchFunction'  data-index='1'></image>
+    </view>
+   
+  </view>
+    <view class='textView'>校外表现</view>
+  <view class='card'>
+   
+    <view class='cardChild'>
+      <image class='cardChildImage' src='/image/dfxm-8.png' bindtap='touchFunction'data-index='2'></image>
+      
+    </view>
+     <view class='cardChild'>
+      <image class='cardChildImage' src='/image/dfxm-9.png' bindtap='touchFunction'data-index='3'></image>
+      
+    </view>
+     <view class='cardChild'>
+      <image class='cardChildImage' src='/image/dfxm-10.png' bindtap='touchFunction'data-index='4'></image>
+      
+    </view>
+  </view></view>
+ 

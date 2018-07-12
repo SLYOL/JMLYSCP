@@ -1,0 +1,34 @@
+<scroll-view class='mainView' scroll-y="true">
+  <view class='mainChild' wx:for='{{studentArray}}' wx:for-index="index" wx:key='student'>
+    <view class='childFirst'>
+      <image class='headerImage' src='/image/yuan.png'></image>
+      <view class='childFirstChild'>
+          <view class='firstSon1'>
+            <view class='nameView'>{{item.sname}}</view>
+            <view class='creditView'>{{item.credit}}分</view>
+          </view>
+          <text class='firstSon2'>{{item.detail}}</text>
+        
+      </view>
+      
+    </view>
+    <view class='childThree'>
+      <image class='awardView' src='{{item.img}}'lazy-load='true'mode='aspectFit'data-index='{{index}}' bindtap='touchImage'></image>
+      <view class='childSecondChild'>
+
+        <button class='addBTN' bindtap='touchAdd' hidden='{{hidden}}' data-index='{{index}}'>同意</button>
+        <button class='passBTN' bindtap='touchPass' hidden='{{hidden}}' data-index='{{index}}'>忽略</button>
+        <button class='addBTN2' hidden='{{!hidden}}' style="background-color:{{item.state?'#32CD32':'#DC143C'}}">{{item.state?'已同意':'已忽略'}}</button>
+        <!-- style="background-color:{{item.state?'#32CD32':'#DC143C'}}" -->
+
+      </view>
+    </view>
+
+  </view>
+
+  
+</scroll-view>
+<view class='bottomView'>
+    <button class='toDoView' bindtap='unAudit'>未审核</button>
+    <button class='doneView' bindtap='audit'>已审核</button>
+</view>

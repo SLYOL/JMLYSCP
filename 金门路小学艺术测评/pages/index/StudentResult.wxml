@@ -1,0 +1,85 @@
+<view class='functionView'>
+  <view class='titleView'>在校表现</view>
+  <view class='card'>
+    <view class='cardChild'>
+      <view class='cardChildImage' style = "background-image: url('https://lg-n0r2iyru-1256892062.cos.ap-shanghai.myqcloud.com/dfxm-1.png');background-size:cover"  bindtap='touchKQ'>
+      <view class='resultView'>{{e1Art}}</view>
+      <view class='resultView2'>{{e1Music}}</view>
+
+      </view>
+    </view>
+    <view class='cardChild'>
+      <view class='cardChildImage' style = "background-image: url('https://lg-n0r2iyru-1256892062.cos.ap-shanghai.myqcloud.com/dfxm-2.png');background-size:cover" bindtap='touchKTCY'>
+      <view class='resultView'>{{e2Art}}</view>
+      <view class='resultView2'>{{e2Music}}</view>
+      </view>
+      
+    </view>
+    <view class='cardChild'>
+      <view class='cardChildImage' style = "background-image: url('https://lg-n0r2iyru-1256892062.cos.ap-shanghai.myqcloud.com/dfxm-3.png');background-size:cover" bindtap='touchHomeWork'>
+      <view class='resultView3'>{{e3Art}}</view>
+      <view class='resultView4'>{{e3Music}}</view>
+      </view>
+      
+    </view>
+    <view class='cardChild'>
+      <view class='cardChildImage3'>
+        {{level}}
+      </view>
+      
+    </view>
+  </view>
+  <view class='titleView'>在校活动</view>
+  <view class='card'>
+    <view class='cardChild'>
+      <view class='cardChildImage' style = "background-image: url('https://lg-n0r2iyru-1256892062.cos.ap-shanghai.myqcloud.com/dfxm-4.png');background-size:cover" bindtap='touchSQXZ'>
+      <view class='resultView'>{{e4}}</view>
+      </view>
+    </view>
+    <view class='cardChild'>
+      <view class='cardChildImage' style = "background-image: url('https://lg-n0r2iyru-1256892062.cos.ap-shanghai.myqcloud.com/dfxm-5.png');background-size:cover" bindtap='touchWYHD'>
+      <view class='resultView'>{{e5}}</view>
+      </view>
+    </view>
+  </view>
+   <view class='titleView'>期末评测</view>
+  <view class='card'>
+    <view class='cardChild2'>
+      <view class='cardChildImage2' style = "background-image: url('https://lg-n0r2iyru-1256892062.cos.ap-shanghai.myqcloud.com/dfxm-6.png');background-size:contain" bindtap='touchZTBS'>
+      <view class='resultView5'>{{e6}}</view>
+      <view class='resultView6'>{{e7}}</view> 
+      </view>
+    </view>
+    <view class='cardChild2'>
+      <view class='cardChildImage2' style = "background-image: url('https://lg-n0r2iyru-1256892062.cos.ap-shanghai.myqcloud.com/dfxm-7.png');background-size:contain" bindtap='touchZYJN'>
+      <view class='resultView5'>{{e8}}</view>
+
+      </view>
+      
+    </view>
+    
+  </view>
+    <view class='titleView'>校外活动</view>
+  <view class='card'>
+    <view class='cardChild'>
+      <view class='cardChildImage' style = "background-image: url('https://lg-n0r2iyru-1256892062.cos.ap-shanghai.myqcloud.com/dfxm-8.png');background-size:cover" bindtap='touchYSXX'>
+      <view class='resultView'>{{e9}}</view>
+      </view>
+    </view>
+    <view class='cardChild'>
+      <view class='cardChildImage' style = "background-image: url('https://lg-n0r2iyru-1256892062.cos.ap-shanghai.myqcloud.com/dfxm-9.png');background-size:cover" bindtap='touchYSSJ'>
+      <view class='resultView'>{{e10}}</view>
+      </view>
+      
+    </view>
+     <view class='cardChild'>
+      <view class='cardChildImage' style = "background-image: url('https://lg-n0r2iyru-1256892062.cos.ap-shanghai.myqcloud.com/dfxm-10.png');background-size:cover" bindtap='touchHJRY'>
+      <view class='resultView3'>{{e11}}</view>
+      </view>
+      
+    </view>
+   
+   
+  </view>
+</view>
+<!-- <view class='export' bindtap='touchExport'>导出</view> -->

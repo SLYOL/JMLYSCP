@@ -1,0 +1,74 @@
+
+.kqView {
+   background-color: #f9f9f9; 
+
+  height: 75%;
+  margin-top: 0px;
+}
+.titleView {
+  width: 100%;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+.studenView {
+  width: 94%;
+  margin: 0 auto;
+  display: flex;  
+  flex-direction: row;
+  flex-wrap:wrap;
+ 
+  /* text-align: left;   */
+  /* margin-top: 40px; */
+
+
+}
+.childView {
+  
+  width: 24%;
+  line-height: 50rpx;
+  margin: 0 auto; 
+  margin-top: 20rpx;
+  text-align: center;
+  font-size: 24rpx;
+  border-radius: 25rpx;
+  border:1px solid gray;
+  /* justify-content: space-between;  */
+
+}
+
+.saveBtn {
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #8BDD33;
+  line-height: 60rpx;
+  border-radius: 30rpx;
+  color: white;
+  font-size: 30rpx;
+  position: fixed;
+  bottom: 20px;
+  left: 40%;
+}
+.moreChange {
+  width: 20%;
+  height: 60rpx;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-size: 30rpx;
+  position: fixed;
+  bottom: 200rpx;
+  right: 5%;
+}
+.myInput {
+  color: red;
+  width: 80%;
+  height: 56rpx;
+  text-align: center;
+  border:  1px solid red;
+  border-radius: 30px;
+  position: fixed;
+  bottom: 200rpx;
+  right: 5%;
+}

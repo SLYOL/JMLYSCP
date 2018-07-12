@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/index/index",
+    "pages/index/StudentIndex",
+    "pages/index/ChangePWD",
+    "pages/index/StudentResult",
+    "pages/function/function",
+    "pages/function/kq",
+    "pages/function/hjry",
+    "pages/function/homeWork",
+    "pages/function/ktcy",
+    "pages/function/sqxz",
+    "pages/function/wyhd",
+    "pages/function/yssj",
+    "pages/function/ysxx",
+    "pages/function/ztbs",
+    "pages/function/zyjn",
+    "pages/login/search",
+    "pages/index/AddClass",
+    "pages/studentFunction/art",
+    "pages/studentFunction/awards"
+
+  ],
+  "window":{
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#0059BA"
+
+  }
+ 
+}

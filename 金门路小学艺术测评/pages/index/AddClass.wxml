@@ -1,0 +1,15 @@
+<view >
+<view class='titleView'>请选择年级:</view>
+  <view class='greadeView' >
+    <image class='greadeImage'wx:for='{{greadeArray}}' wx:for-index="index" wx:key='greade' src='{{item.greadeImage}}' bindtap='touchSelectGreade' data-index='{{index}}'></image>
+
+  </view>
+  <view class='titleView'>请选择班级:</view>
+  <view class='greadeView' >
+    <image class='classImage'wx:for='{{classArray}}' wx:for-index="index" wx:key='class' data-index='{{index}} 
+    src='{{item.classImage}}'bindtap='touchSelectClass'></image>
+  </view>
+     
+  <view class='saveBtn' bindtap='touchSave'>保存</view>
+
+</view>

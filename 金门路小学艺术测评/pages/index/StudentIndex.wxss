@@ -1,0 +1,130 @@
+.titleView {
+  margin-top: 0px; 
+  width: 100%;
+  height: 240px;
+  text-align: center;
+}
+.headerImage {
+  margin-top: 50px;
+  width: 80px;
+  height: 80px;
+}
+.name {
+  margin-top: 10px;
+  color: white;
+  font-size: 14px;
+}
+.changeView {
+  margin-top: 20px;
+  height: 30px;
+  display: flex;   
+  flex-direction: row;    
+}
+.changePWD {
+  width: 50%;
+  height: 30px;
+
+}
+.changeEmile {
+  width: 50%;
+  height: 30px;
+  /* margin: 0 auto; */
+}
+.changePWDimage {
+  width: 160rpx;
+  line-height: 60rpx;
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 30rpx;
+}
+.changeEmileimage {
+  width: 160rpx;
+  line-height: 60rpx;
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 30rpx;
+
+
+}
+.selectClassView {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.classView {
+  margin-top: 10px;
+  height: 80px;
+  width: 100%;
+  background-color: #6EBAFF;
+  display: flex;   
+  flex-direction: row; 
+  /* text-align: center; */
+}
+.imageView {
+  margin-top: 9px;
+  margin-left: 50px;
+  width: 68px;
+  height: 62px;
+}
+.classTitle {
+  margin-top: 15px;
+  margin-left: 50px;
+  width: 50%;
+  height: 50px;
+  color: white;
+  font-size: 38px;
+}
+.addView {
+  margin-top: 10px;
+  height: 80px;
+  width: 100%;
+  /* display: flex;    */
+}
+page {
+  font-size: 28rpx;
+  color: #6b6b6b;
+  background: #f9f9f9;
+}
+.functionView {
+  width: 94%;
+  margin: 0 auto;
+  margin-top: 20rpx;
+
+}
+.textView {
+  line-height: 100rpx;
+}
+.card {
+
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.cardChild {
+  margin-top: 20rpx;
+  width: 47%;
+  border-radius: 15rpx;
+  background: #ababab;
+  box-shadow: 0 0rpx 10rpx #ababab;
+}
+.cardChildImage {
+  width: 100%;
+  height: 190rpx;
+}
+.cardChildImage2{
+  width: 100%;
+  height: 150rpx;
+}
+.cardChild2 {
+  margin-top: 20rpx;
+  width: 100%;
+  border-radius: 15rpx;
+  background: #ababab;
+  box-shadow: 0 2rpx 10rpx #ababab;
+}

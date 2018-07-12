@@ -1,0 +1,10 @@
+<scroll-view class='kqView' scroll-y="true">
+<view class='titleView' >{{title}}</view>
+  <view class='studenView'  >
+  <view class='childView' wx:for='{{studentArray}}' wx:for-index="index" wx:key='student' bindtap='touchStudent' data-index='{{index}}' style='color:{{item.color}};background-color:{{item.backgroundcolor}}'>{{item.sname}}-{{item.ZYBS}}</view>
+  </view>
+  
+</scroll-view>
+<view class='saveBtn' bindtap='touchSave'>保存</view>
+  <input class='myInput' placeholder="请输入成绩" placeholder-style="color: red" bindinput='listionResult' type='number' maxlength='3' value='{{value}}'></input>
+  <image class='moreChange' src="/image/all-done.png"  bindtap='touchMoreChange'></image>

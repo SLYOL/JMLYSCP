@@ -1,0 +1,96 @@
+.mainView{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+.titleView{
+  /* margin-top: 100rpx; */
+  line-height: 100rpx;
+  /* margin: 0 auto; */
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.subjectView{
+  height: 220rpx;
+  width: 80%;
+  margin: 0 auto; 
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.subject{
+  height: 100%;
+  width: 275rpx;
+}
+.inputView{
+  width: 80%;
+  height: 15%;
+  margin: 0 auto; 
+  background-color: white;
+  font-size: 28rpx;
+  color: blue;
+}
+.photoView {
+  width: 80%;
+  height: 20%;
+  margin: 0 auto; 
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 100rpx;
+
+}
+.addImage{
+  /* margin-left: 50rpx; */
+  width: 400rpx;
+  height: 200rpx;
+}
+.imageTiele{
+  width: 150rpx;
+  height: 60rpx;
+  line-height: 200rpx; 
+  color: white;
+  /* margin-left: 10rpx; */
+}
+.awardsView{
+  width: 80%;
+  height: 20%;
+  margin: 0 auto;
+ 
+ 
+}
+.awardsChild{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.Child{
+  width: 18%;
+  height: 50%;
+  color: white;
+  font-size: 36rpx;
+  text-align: center;
+  border:1px solid white;
+  margin-top: 30rpx;
+  line-height: 60rpx;
+
+
+  /* margin: 0 auto; */
+}
+.Child2{
+  width: 22%;
+  height: 50%;
+  color: white;
+  font-size: 36rpx; 
+  text-align: center;
+  border:1px solid white;
+  margin-top: 30rpx;
+  line-height: 60rpx;
+}

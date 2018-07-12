@@ -1,0 +1,53 @@
+<view class='functionView'>
+  <view class='titleView'>在校表现</view>
+  <view class='card'>
+    <view class='cardChild'>
+      <image class='cardChildImage' src='/image/dfxm-1.png' bindtap='touchKQ'></image>
+    </view>
+    <view class='cardChild'>
+      <image class='cardChildImage' src='/image/dfxm-2.png' bindtap='touchKTCY'></image>
+      
+    </view>
+     <view class='cardChild'>
+      <image class='cardChildImage' src='/image/dfxm-3.png' bindtap='touchHomeWork'></image>
+      
+    </view>
+  </view>
+  <view class='titleView'>在校活动</view>
+  <view class='card'>
+    <view class='cardChild'>
+      <image class='cardChildImage' src='/image/dfxm-4.png' bindtap='touchSQXZ'></image>
+    </view>
+    <view class='cardChild'>
+      <image class='cardChildImage' src='/image/dfxm-5.png' bindtap='touchWYHD'></image>
+    </view>
+  </view>
+   <view class='titleView'>期末评测</view>
+  <view class='card'>
+    <view class='cardChild2'>
+      <image class='cardChildImage2' src='/image/dfxm-6.png' bindtap='touchZTBS'></image>
+    </view>
+    <view class='cardChild2'>
+      <image class='cardChildImage2' src='/image/dfxm-7.png' bindtap='touchZYJN'></image>
+      
+    </view>
+    
+  </view>
+    <view class='titleView'>校外活动</view>
+  <view class='card'>
+    <view class='cardChild'>
+      <image class='cardChildImage' src='/image/dfxm-8.png' bindtap='touchYSXX'></image>
+    </view>
+    <view class='cardChild'>
+      <image class='cardChildImage' src='/image/dfxm-9.png' bindtap='touchYSSJ'></image>
+      
+    </view>
+     <view class='cardChild'>
+      <image class='cardChildImage' src='/image/dfxm-10.png' bindtap='touchHJRY'></image>
+      
+    </view>
+   
+   
+  </view>
+</view>
+<view class='export' bindtap='touchExport'>导出</view>

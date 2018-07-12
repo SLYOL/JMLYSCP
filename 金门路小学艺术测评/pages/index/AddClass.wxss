@@ -1,0 +1,63 @@
+.titleView {
+  margin-left: 20rpx;
+  margin-top: 100rpx;
+  line-height: 60rpx;
+}
+.greadeView {
+  width: 94%;
+  height: 100rpx;
+  margin: 0 auto; 
+  display: flex;  
+  flex-direction: row; 
+  flex-wrap:wrap; 
+  justify-content: space-between;
+  /* background-color: red; */
+  margin-top: 60rpx;
+
+}
+.greadeImage {
+  
+  width: 15%;
+  height: 100rpx;
+  margin: 0 auto;
+  /* text-align: center; */
+}
+.classImage {
+  width: 15%;
+  height: 100rpx;
+  margin: 0 auto;
+}
+
+.studentView {
+  width: 94%;
+  margin: 0 auto;
+  display: flex;  
+  flex-direction: row; 
+  flex-wrap:wrap; 
+  /* height: 40%; */
+}
+.childView {
+  width: 18%;
+  line-height: 50rpx;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  text-align: center;
+  font-size: 26rpx;
+  border-radius: 25rpx;
+  border:1px solid gray;
+  justify-content: space-between;
+}
+.saveBtn {
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20rpx;
+  background-color: #8BDD33;
+  line-height: 60rpx;
+  border-radius: 30rpx;
+  color: white;
+  font-size: 30rpx;
+  position: fixed;
+  bottom: 30%;
+  left: 40%; 
+}

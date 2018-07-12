@@ -1,0 +1,7 @@
+<view class='kqView'>
+<view class='titleView' >{{title}}</view>
+  <view class='studenView'  >
+  <view class='childView' wx:for='{{studentArray}}' wx:for-index="index" wx:key='student' bindtap='touchStudent' data-index='{{index}}' style='color:{{item.color}};background-color:{{item.backgroundcolor}}'>{{item.sname}}</view>
+  </view>
+  <view class='saveBtn' bindtap='touchSave'>保存</view>
+</view>
